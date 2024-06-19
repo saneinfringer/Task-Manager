@@ -120,7 +120,7 @@ JavaScript: Handle user interactions, manipulate the DOM, and potentially intera
 
 ## Screenshots
 
-![App Screenshot](screenshots/screenshot)
+![App Screenshot](screenshot/screenshot.png)
 
 
 ## License
