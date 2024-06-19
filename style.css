@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #4a4a4a;
+}
+
+header {
+  background-color: salmon;
+  color: #fff;
+  padding: 10px;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+header p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+header a:hover {
+  background-color: #fff;
+  color: #219ebc;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form {
+  width: 100vw;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+
+form input {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #fb8500;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#tasks {
+  width: 90vw;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+#list-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: space-between;
+}
+
+#item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+#item span {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#item:hover {
+  transform: scale(1.02);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#delete {
+  background-color: #e63946;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#delete:hover {
+  background-color: #f72536;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+@media screen and (max-width: 480px) {
+  header p {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 2.4rem;
+    text-wrap: nowrap;
+  }
+}
